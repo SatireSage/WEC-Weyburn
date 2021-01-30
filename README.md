@@ -58,4 +58,5 @@ There are seven game pieces each with their own movement and attacking functions
 - You may add any additional rules, game modes, or supporting infrastructure as you see fit to improve the deliverables. These will be counted towards your creativity/innovation points or your overall design points depending upon their nature.
 
 # Additional Notes
+
 - Made using Python
