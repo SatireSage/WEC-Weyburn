@@ -54,11 +54,12 @@ There are seven game pieces each with their own movement and attacking functions
     - If this is not implemented in your design or the player does not choose positions it defaults to the outermost square biasing to the kingside in the event there is an odd number
 
 - The game board can be any even amount from 8x8 to 16x16 squares (10x10,12x12…)
-  -- For every increase in width beyond 8 (10,12,14,16), additional pieces are added as described below:
-  -- At 10, each player receives two more knights, on the outside of the existing ones as well as two additional pawns in the front row
-  -- At 12, each player receives two more bishops, on the outside of the existing ones as well as one vanguard and one pawn to place in the front row
-  -- At 14, each player receives two more rooks, on the outside of the existing ones as well as two additional pawns in the front row
-  -- At 16, each player receives two morel queens, on the outside of the existing queen/king pair as well as one vanguard/one pawn to place in the front row
+
+  - For every increase in width beyond 8 (10,12,14,16), additional pieces are added as described below:
+  - At 10, each player receives two more knights, on the outside of the existing ones as well as two additional pawns in the front row
+  - At 12, each player receives two more bishops, on the outside of the existing ones as well as one vanguard and one pawn to place in the front row
+  - At 14, each player receives two more rooks, on the outside of the existing ones as well as two additional pawns in the front row
+  - At 16, each player receives two morel queens, on the outside of the existing queen/king pair as well as one vanguard/one pawn to place in the front row
 
 - You may add any additional rules, game modes, or supporting infrastructure as you see fit to improve the deliverables. These will be counted towards your creativity/innovation points or your overall design points depending upon their nature.
 
