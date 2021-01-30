@@ -33,6 +33,15 @@ def GamePieces():
     for piece in pieces:
         IMAGES[piece] = pygame.load("ChessPieces/" + piece + ".png")
 
+def drawPieces(filename,x,y):
+    screen.blit(filename,(x,y))
+
+def cyclePieces(size):
+    for y in range(0,size):
+        for x in range(0,size):
+            if BaseState[y][x] != '--':
+                drawPieces(IMAGES[piece], (x*50),(y*50))
+
 
 screen = pygame.display.set_mode(res)
 pygame.display.set_caption("CHESS")
