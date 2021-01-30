@@ -6,6 +6,11 @@ WEC 2021 Programming Competition
 
 It is your task to design a system for you and your siblings to play the modified chess game found in the <Rules> section despite the fact that you live far away from each other.
 
+# Pre-requisite
+
+Please install pygame.
+The game will not run without installing python and pygame.
+
 ## Rules
 
 All rules are described as variations on the traditional game and it is assumed that competitors are vaguely familiar with the game.
