@@ -56,3 +56,6 @@ There are seven game pieces each with their own movement and attacking functions
   -- At 16, each player receives two morel queens, on the outside of the existing queen/king pair as well as one vanguard/one pawn to place in the front row
 
 - You may add any additional rules, game modes, or supporting infrastructure as you see fit to improve the deliverables. These will be counted towards your creativity/innovation points or your overall design points depending upon their nature.
+
+# Additional Notes
+- Made using Python
