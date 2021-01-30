@@ -17,14 +17,21 @@ winTwelve = (600, 600)
 winFourteen = (700, 700)
 winSixteen = (800, 800)
 
-eightPiece = [[14, 10, 15, 11, 12, 15, 10, 14],
-              [9, 9, 9, 9, 9, 9, 9, 9],
-              [0, 0, 0, 0, 0, 0, 0, 0],
-              [0, 0, 0, 0, 0, 0, 0, 0],
-              [0, 0, 0, 0, 0, 0, 0, 0],
-              [0, 0, 0, 0, 0, 0, 0, 0],
-              [1, 1, 1, 1, 1, 1, 1, 1],
-              [6, 2, 7, 3, 4, 7, 2, 6]]
+BaseState = [['br', 'bn', 'bb', 'bq', 'bk', 'bb', 'bn', 'br'],
+             ['bp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp'],
+             ['--', '--', '--', '--', '--', '--', '--', '--'],
+             ['--', '--', '--', '--', '--', '--', '--', '--'],
+             ['--', '--', '--', '--', '--', '--', '--', '--'],
+             ['--', '--', '--', '--', '--', '--', '--', '--'],
+             ['wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp'],
+             ['wr', 'wn', 'wb', 'wq', 'wk', 'wb', 'wn', 'wr']]
+
+
+def GamePieces():
+    pieces = ['bq', 'bk', 'br', 'bn', 'bb', 'bv', 'bp',
+              'wq', 'wk', 'wr', 'wn', 'wb', 'wv', 'wp', ]
+    for piece in pieces:
+        IMAGES[piece] = pygame.load("ChessPieces/" + piece + ".png")
 
 
 screen = pygame.display.set_mode(res)
