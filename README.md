@@ -2,6 +2,11 @@
 
 WEC 2021 Programming Competition
 
+# Prerequisite
+
+Please download Python and pygame for the game to run.
+You will not be able to run the game without these two on your respective machine.
+
 # Prompt
 
 It is your task to design a system for you and your siblings to play the modified chess game found in the <Rules> section despite the fact that you live far away from each other.
