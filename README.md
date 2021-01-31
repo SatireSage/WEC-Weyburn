@@ -7,8 +7,12 @@ WEC 2021 Programming Competition
 Please download Python and pygame for the game to run.
 You will not be able to run the game without these two on your respective machine.
 
-# Additional Notes
+# Usage and Additional Notes
 
+In order to use the program, please clone the repository and open the Chess folder to find the python script.
+The python script named CHESS_WEC.py is the main program that will run.
+
+Important!
 Please download and open the folder to ensure that CHESS_WEC.py python script and the folder ChessPieces are together for the images to load properly into the script.
 Otherwise an error might occur since an auto-executable version has not yet been made available across different platforms.
 
