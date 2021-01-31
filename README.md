@@ -7,6 +7,11 @@ WEC 2021 Programming Competition
 Please download Python and pygame for the game to run.
 You will not be able to run the game without these two on your respective machine.
 
+# Additional Notes
+
+Please download and open the folder to ensure that CHESS_WEC.py python script and the folder ChessPieces are together for the images to load properly into the script.
+Otherwise an error might occur since an auto-executable version has not yet been made available across different platforms.
+
 # Prompt
 
 It is your task to design a system for you and your siblings to play the modified chess game found in the <Rules> section despite the fact that you live far away from each other.
@@ -62,7 +67,3 @@ There are seven game pieces each with their own movement and attacking functions
   - At 16, each player receives two morel queens, on the outside of the existing queen/king pair as well as one vanguard/one pawn to place in the front row
 
 - You may add any additional rules, game modes, or supporting infrastructure as you see fit to improve the deliverables. These will be counted towards your creativity/innovation points or your overall design points depending upon their nature.
-
-# Additional Notes
-
-- Made using Python

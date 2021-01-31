@@ -10,6 +10,8 @@ def GamePieces():
         IMAGES[piece] = pygame.image.load("ChessPieces/" + piece + ".png")
 
 
+bkg = pygame.image.load("ChessPieces/Weyburn_Chess.jpg")
+
 pygame.init()
 GamePieces()
 
@@ -175,7 +177,7 @@ def cyclePieces16(size):
 
 
 screen = pygame.display.set_mode(res)
-pygame.display.set_caption("CHESS")
+pygame.display.set_caption("Weyburn Chess")
 clock = pygame.time.Clock()
 
 FONTSINGLE = pygame.font.SysFont('Corbel', 35)
@@ -185,6 +187,14 @@ tenBoard = FONTDOUBLE.render('10x10', True, WHITE)
 twelveBoard = FONTDOUBLE.render('12x12', True, WHITE)
 fourteenBoard = FONTDOUBLE.render('14x14', True, WHITE)
 sixteenBoard = FONTDOUBLE.render('16x16', True, WHITE)
+FONTEIGHT = pygame.font.SysFont('Academy Engraced LET', 35)
+but1 = FONTEIGHT.render('Novice', True, (105, 201, 26))
+but2 = FONTEIGHT.render('Beginner', True, (217, 217, 24))
+but3 = FONTEIGHT.render('Competent', True, (219, 130, 22))
+but4 = FONTEIGHT.render('Proficient', True, (227, 67, 18))
+but5 = FONTEIGHT.render('Expert', True, (149, 17, 189))
+FONTCOPYRIGHT = pygame.font.SysFont('Academy Engraved LET', 25)
+cop = FONTCOPYRIGHT.render('© Weyburn 2021', True, WHITE)
 
 
 def drawBoard(size):
@@ -233,7 +243,13 @@ while run:
     mouse = pygame.mouse.get_pos()
 
     if startScreen == True:
-        screen.fill(WHITE)
+        screen.blit(bkg, (0, 0))
+        screen.blit(cop, (2, 684))
+        screen.blit(but1, (110, 550))
+        screen.blit(but2, (272, 550))
+        screen.blit(but3, (436, 550))
+        screen.blit(but4, (615, 550))
+        screen.blit(but5, (812, 550))
         if 75 <= mouse[0] <= 225 and 500 <= mouse[1] <= 545:
             pygame.draw.rect(screen, BUTTONLIGHT, [75, 500, 150, 45])
         else:
